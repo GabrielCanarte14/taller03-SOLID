@@ -19,3 +19,8 @@ añadirle a la clase OperacionesAderezo los metodos de añadir y quitar aderezo.
 existencia es innecesaria es que añadir estos dos metodos a cada clase hija no incurre en ningun otro principio por lo
 cual separarlos no es necesario. Respecto a si se podría o no se podría incluir estos metodos a postre, si se puede hacer
 pero no es una condición necesaria.
+
+Enunciado 3
+
+Este cambio sería innecesario ya que si la formula de calculo se modifica, el método showPrecioFinal no se vería afectado
+de ninguna forma y no estaría causando un problema en el principio de inversión de dependencias.
