@@ -12,16 +12,15 @@ import Adicionales.Aderezo;
  *
  * @author Pedro Mendoza
  */
-public class Helado{
-    private String sabor;
+public class Helado extends Postre{
     private double precioParcial;
-    private ArrayList<Aderezo> aderezos;
-    
-    public Helado(String sabor){
-        aderezos= new ArrayList<>();
-        this.sabor=sabor;
+
+    public Helado(double precioParcial, String sabor, ArrayList<Aderezo> aderezos) {
+        super(sabor, aderezos);
         this.precioParcial = 7.85;
     }
+    
+    
     
     public double calcularPrecioFinal(){
         double precioFinal;

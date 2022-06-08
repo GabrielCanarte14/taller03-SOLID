@@ -4,10 +4,20 @@
  */
 package Postres;
 
+import Adicionales.Aderezo;
+import java.util.ArrayList;
+
 /**
  *
  * @author User
  */
 public class Postre {
+    protected String sabor;
+    protected ArrayList<Aderezo> aderezos;
+
+    public Postre(String sabor, ArrayList<Aderezo> aderezos) {
+        this.sabor = sabor;
+        this.aderezos = aderezos;
+    }
     
 }
