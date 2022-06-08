@@ -19,6 +19,7 @@ public abstract class Aderezo {
     abstract void setNombre(String nombre);
     //MALVAVISCOS,FRUTILLA,CREMA
     
+    @Override
     public String toString() {
         return  nombre.toUpperCase();
     }
