@@ -20,4 +20,7 @@ public class Postre {
         this.aderezos = aderezos;
     }
     
+    public ArrayList<Aderezo> getAderezos() {
+        return aderezos;
+    }
 }

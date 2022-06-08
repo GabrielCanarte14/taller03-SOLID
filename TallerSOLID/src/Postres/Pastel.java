@@ -12,7 +12,7 @@ import Adicionales.Aderezo;
  *
  * @author Pedro Mendoza
  */
-public class Pastel extends Postre{
+public class Pastel extends Postre implements Calculable{
     
     private double precioParcial;
 
@@ -23,16 +23,14 @@ public class Pastel extends Postre{
     
     
     
-    
+    @Override
     public double calcularPrecioFinal(){
         double precioFinal;
         precioFinal=(precioParcial+(precioParcial*0.12))+(aderezos.size()*0.50);
         return precioFinal;
     }
 
-    public ArrayList<Aderezo> getAderezos() {
-        return aderezos;
-    }
+    
 
     @Override
     public String toString() {
