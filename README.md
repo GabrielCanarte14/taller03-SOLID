@@ -24,3 +24,9 @@ Enunciado 3
 
 Este cambio sería innecesario ya que si la formula de calculo se modifica, el método showPrecioFinal no se vería afectado
 de ninguna forma y no estaría causando un problema en el principio de inversión de dependencias.
+
+Enunciado 4 
+
+Este cambio fue necesario paa evitar incurrir en el principio de Open Close ya que si dejabamos a la clase aderezo como
+una clase de tipo Enum, cada vez que quisieramos agregar un nuevo tipo tendriamos que editar el módulo, para esto como 
+solucion se crea las clases individuales para cada uno.
