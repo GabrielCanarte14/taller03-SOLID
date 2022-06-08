@@ -21,7 +21,13 @@ public class Pastel extends Postre implements Calculable{
         this.precioParcial = 15.55;
     }
     
+    public static void anadirAderezoPastel(Pastel pastel,Aderezo aderezo){
+        pastel.getAderezos().add(aderezo);
+    }
     
+    public static void quitarAderezoPastel(Pastel pastel,Aderezo aderezo){
+        pastel.getAderezos().remove(aderezo);
+    }
     
     @Override
     public double calcularPrecioFinal(){

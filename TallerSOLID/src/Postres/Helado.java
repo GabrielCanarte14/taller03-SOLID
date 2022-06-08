@@ -29,7 +29,13 @@ public class Helado extends Postre implements Calculable{
         return precioFinal;
     }
 
+    public static void anadirAderezoHelado(Helado helado,Aderezo aderezo){
+        helado.getAderezos().add(aderezo);
+    }
     
+    public static void quitarAderezoHelado(Helado helado,Aderezo aderezo){
+        helado.getAderezos().remove(aderezo);
+    }
 
     @Override
     public String toString() {
