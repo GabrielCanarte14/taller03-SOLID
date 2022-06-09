@@ -23,4 +23,7 @@ public class Postre {
     public ArrayList<Aderezo> getAderezos() {
         return aderezos;
     }
+    public static void anadirAderezoPastel(Postre postre,Aderezo aderezo){
+        postre.getAderezos().add(aderezo);
+    }
 }

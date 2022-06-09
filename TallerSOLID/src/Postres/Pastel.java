@@ -16,7 +16,7 @@ public class Pastel extends Postre implements Calculable{
     
     private double precioParcial;
 
-    public Pastel(String sabor, double precioParcial, ArrayList<Aderezo> aderezos) {
+    public Pastel(String sabor, ArrayList<Aderezo> aderezos) {
         super(sabor, aderezos);
         this.precioParcial = 15.55;
     }

@@ -15,7 +15,7 @@ import Adicionales.Aderezo;
 public class Helado extends Postre implements Calculable{
     private double precioParcial;
 
-    public Helado(double precioParcial, String sabor, ArrayList<Aderezo> aderezos) {
+    public Helado(String sabor, ArrayList<Aderezo> aderezos) {
         super(sabor, aderezos);
         this.precioParcial = 7.85;
     }
