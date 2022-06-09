@@ -30,3 +30,8 @@ Enunciado 4
 Este cambio fue necesario paa evitar incurrir en el principio de Open Close ya que si dejabamos a la clase aderezo como
 una clase de tipo Enum, cada vez que quisieramos agregar un nuevo tipo tendriamos que editar el módulo, para esto como 
 solucion se crea las clases individuales para cada uno.
+
+Enunciado 5 
+
+No se produce ningun error ya que al hacer el cambio de tipo de leche deslactosada a pastel, ya hay un metodo que 
+captura el error y no permite el cambio.
